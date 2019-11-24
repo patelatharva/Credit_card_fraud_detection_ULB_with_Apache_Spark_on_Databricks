@@ -1,1 +1,4 @@
-# Credit_card_fraud_detection_ULB
+# Building credit card fraud detection model using Spark on Databricks with dataset provided by ULB
+In this project, I have implemented credit card fraud detection model using Spark and LightGBMClassifier in Databricks runtime environment using dataset provided by Machine Learning Group at Université libre de Bruxelles (ULB). The dataset with 300,000 rows consisting 31 variables related to European Credit Card holder's transactions out of which 28 are numeric variables derived by performing Principal Component Analysis on some unrevealed original parameters. The remaining three variables are Amount of transaction, time of transaction in seconds relative to first tranaction and Class of transaction indicating whether its genuine or fradulent.
+
+You may also refer to [accompanying notebook on Kaggle](https://www.kaggle.com/patelatharva/credit-card-transaction-fraud-detection) which was used for finding optimal values of Hyperparaeters for LightGBMClassifier, which was used in this project for training the model inside Spark.
